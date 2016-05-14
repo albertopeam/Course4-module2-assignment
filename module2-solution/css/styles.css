@@ -133,6 +133,7 @@
 
 h1{
   text-align: center;
+  margin: 36px 0px 36px 0px;
 }
 
 .row {
@@ -144,7 +145,8 @@ h1{
   position: relative;
   background-color: gray;
   border-style: solid;
-  border-width: thick 1px 1px 1px 1px;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
   padding: 0px 16px 16px 16px;
   margin-bottom: 32px;
   margin-left: 16px;
@@ -153,14 +155,15 @@ h1{
 
 .title{
   position: absolute;
-  text-align: right;
   margin-top: 0px;
   right: 0px;
-  padding: 4px 20px 4px 20px;
+  padding: 4px 36px 4px 36px;
   border-style: solid;
-  border-width: thick 1px 1px 1px 1px;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
   border-top: 0px;
   border-right: 0px;
+  text-align: center;
 }
 
 .title.one{
